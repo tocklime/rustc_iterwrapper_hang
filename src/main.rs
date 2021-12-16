@@ -1,5 +1,5 @@
 fn main() {
-    let mut iter = [1, 2].into_iter();
+    let mut iter = vec![1, 2].into_iter();
     func(&mut iter);
 }
 fn func(n: &mut impl Iterator<Item = usize>) {
